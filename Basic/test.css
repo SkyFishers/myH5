@@ -1,0 +1,61 @@
+page,body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+page{padding-top: 45%;
+    height: 100%;
+    position: absolute;
+    font-size: 200px;
+}
+@keyframes c {
+    0%{opacity:0}
+    20%{opacity: 100}
+    40%{opacity:0}
+    100%{opacity:0}
+}
+@keyframes x {
+    0%{opacity:0}
+    20%{opacity:0}
+    40%{opacity:100}
+    60%{opacity:0}
+    100%{opacity:0}
+}
+@keyframes q {
+    0%{opacity:0}
+    40%{opacity:0}
+    60%{opacity:100}
+    80%{opacity:0}
+    100%{opacity:0}
+}
+@keyframes d {
+    0%{opacity:0}
+    60%{opacity:0}
+    80%{opacity: 100}
+    100%{opacity:0}
+}
+#chun{
+    background-image: url("./Images/chun.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    animation: c 10s infinite;
+}
+#xia{
+    background-image: url("./Images/xia.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    animation: x 10s infinite;
+}
+#qiu{
+    background-image: url("./Images/qiu.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    animation: q 10s infinite;
+}
+#dong{
+    background-image: url("./Images/dong.jpg");
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    animation: d 10s infinite;
+}
